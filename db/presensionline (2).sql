@@ -140,9 +140,9 @@ CREATE TABLE `guru` (
 --
 
 INSERT INTO `guru` (`id_guru`, `password`, `nama`, `alamat`, `email`, `privilege`) VALUES
-('gr001', 'guru', 'andry', 'Pemalang', '672018178@student.uksw.edu', 'guru'),
-('gr002', 'guru', 'Riani', 'Salatiga', 'paul.andry01@gmail.com', 'guru'),
-('gr003', 'guru', 'Budi', 'Jakarta', 'cadiskroezt5@gmail.com', 'guru');
+('gr001', 'guru', 'andry', 'Pemalang', 'example@mail.com', 'guru'),
+('gr002', 'guru', 'Riani', 'Salatiga', 'example@mail.com', 'guru'),
+('gr003', 'guru', 'Budi', 'Jakarta', 'example@mail.com', 'guru');
 
 -- --------------------------------------------------------
 
@@ -315,11 +315,11 @@ CREATE TABLE `siswa` (
 --
 
 INSERT INTO `siswa` (`id_siswa`, `password`, `nama`, `alamat`, `email`, `privilege`) VALUES
-('sw001', 'siswa', 'Leksono', 'Pemalang', 'leksono@gmail.com', 'siswa'),
-('sw002', 'siswa', 'Kiono', 'Tangerang', 'kiono@gmail.com', 'siswa'),
-('sw003', 'siswa', 'Nando', 'Semarang', 'nando@gmail.com', 'siswa'),
-('sw004', 'siswa', 'Nina', 'Pekanbaru', 'nina@gmail.com', 'siswa'),
-('sw005', 'siswa', 'Suki', 'Nipon', 'suki.desu@gmail.com', 'siswa');
+('sw001', 'siswa', 'Leksono', 'Pemalang', 'example@mail.com', 'siswa'),
+('sw002', 'siswa', 'Kiono', 'Tangerang', 'example@mail.com', 'siswa'),
+('sw003', 'siswa', 'Nando', 'Semarang', 'example@mail.com', 'siswa'),
+('sw004', 'siswa', 'Nina', 'Pekanbaru', 'example@mail.com', 'siswa'),
+('sw005', 'siswa', 'Suki', 'Nipon', 'example@mail.com', 'siswa');
 
 --
 -- Indexes for dumped tables
