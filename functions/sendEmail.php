@@ -7,9 +7,6 @@ require '../PHPMailer-master/src/Exception.php';
 require '../PHPMailer-master/src/PHPMailer.php';
 require '../PHPMailer-master/src/SMTP.php';
 
-//Load Composer's autoloader
-//require 'vendor/autoload.php';
-
 //Create an instance; passing `true` enables exceptions
 function sendEmail($to='', $nama='', $attach='')
 {
@@ -21,15 +18,15 @@ function sendEmail($to='', $nama='', $attach='')
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'paulus.andry29@gmail.com';                     //SMTP username
-    $mail->Password   = 'paulusandry290401';                               //SMTP password
+    $mail->Username   = 'your_mail@mail.com';                     //SMTP username
+    $mail->Password   = 'your_mail_pessword';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-        $mail->setFrom('paulus.andry29@gmail.com', 'Paul Andry');
+        $mail->setFrom('your_mail@mail.com', 'Your Name');
         $mail->addAddress($to, $nama);     //Add a recipient
-        //$mail->addAddress('672018178@student.uksw.edu');               //Name is optional
+        //$mail->addAddress('info@example.com');               //Name is optional
         // $mail->addReplyTo('info@example.com', 'Information');
         // $mail->addCC('cc@example.com');
         // $mail->addBCC('bcc@example.com');
