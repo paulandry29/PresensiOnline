@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Presensi_Siswa>
+  <Leksono id_siswa="sw001">
+    <kehadiran>Hadir</kehadiran>
+    <waktu>2021-07-03 09:26:10</waktu>
+  </Leksono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Leksono id_siswa="sw001">
+    <kehadiran>Hadir</kehadiran>
+    <waktu>2021-07-04 08:07:46</waktu>
+  </Leksono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Leksono id_siswa="sw001">
+    <kehadiran>Hadir</kehadiran>
+    <waktu>2021-07-03 10:49:03</waktu>
+  </Leksono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Leksono id_siswa="sw001">
+    <kehadiran>Hadir</kehadiran>
+    <waktu>2021-07-04 10:28:29</waktu>
+  </Leksono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Leksono id_siswa="sw001">
+    <kehadiran>Hadir</kehadiran>
+    <waktu>2021-07-06 17:13:18</waktu>
+  </Leksono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Kiono id_siswa="sw002">
+    <kehadiran>Hadir</kehadiran>
+    <waktu>2021-07-06 17:13:20</waktu>
+  </Kiono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Leksono id_siswa="sw001">
+    <kehadiran>Hadir</kehadiran>
+    <waktu>2021-07-06 17:13:42</waktu>
+  </Leksono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Kiono id_siswa="sw002">
+    <kehadiran>Tidak Hadir</kehadiran>
+    <waktu>0000-00-00 00:00:00</waktu>
+  </Kiono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Leksono id_siswa="sw001">
+    <kehadiran>Tidak Hadir</kehadiran>
+    <waktu>0000-00-00 00:00:00</waktu>
+  </Leksono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Kiono id_siswa="sw002">
+    <kehadiran>Hadir</kehadiran>
+    <waktu>2021-07-06 17:14:03</waktu>
+  </Kiono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Leksono id_siswa="sw001">
+    <kehadiran>Tidak Hadir</kehadiran>
+    <waktu>0000-00-00 00:00:00</waktu>
+  </Leksono>
+</Presensi_Siswa>
+<Presensi_Siswa>
+  <Kiono id_siswa="sw002">
+    <kehadiran>Tidak Hadir</kehadiran>
+    <waktu>0000-00-00 00:00:00</waktu>
+  </Kiono>
+</Presensi_Siswa>
